@@ -1,0 +1,352 @@
+body{
+    box-sizing: border-box;
+    background-color: #031321;
+}
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+#header a{
+    color: white;
+}
+.contain-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contain-item1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#duong{
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 0%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 1px black;
+    border-style: solid;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#duong-said p{
+    position: relative;
+    top: 200px;
+    left: 34%;
+    text-align: center;
+    max-width: 600px;
+    font-size: 20px;
+    color: white;
+}
+#duong-said #introduce{
+    font-size: 40px;
+}
+#duong-said #about{
+    position: relative;
+    width: 240px;
+    height: 60px;
+    top: 250px;
+    overflow: hidden;
+    left: 43%;
+}
+#about a{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    color: #2196f3;
+    overflow: hidden;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+#about a:hover{
+    color: #FFF;
+    width: 100%;
+    transition-delay: 1s;
+    background-color: #2196f3;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+a span:nth-child(2){
+    right: 0px;
+    top: -100%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+a span:nth-child(4){
+    left: 0px;
+    bottom: -100%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #2196f3);
+}
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+#next{
+    margin-top: 400px;
+}
+#sumarry{
+    position: relative;  
+    width: 100%;
+    top: 100px;
+    height: 1000px;
+}
+#sumarry p{
+    color: white;
+    font-size: 24px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+#sumarry h1{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+#Certificates{
+    position: relative;  
+    width: 100%;
+    top: 100px;
+    height: 1000px;
+}
+#Certificates p{
+    color: white;
+    font-size: 24px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+#Certificates h1{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+
+.certi-link{
+    color: white;
+    text-decoration: none;
+}
+.certi-link:hover{
+    color: orange;
+    text-decoration: none;
+}
+.certi-link:visited{
+    color: yellow;
+    text-decoration: none;
+}
+
+#Portfolios{
+    position: relative;  
+    width: 100%;
+    top: 100px;
+    height: 1000px;
+}
+#Portfolios h1{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+.container-content{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.container-content p{
+    color: white;
+}
+.content{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.container-content img{
+    margin-left: -200px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.container-content img:hover{
+    scale: 1.5;
+}
+.depscription{
+    font-size: 20px;
+    max-width: 550px;
+    margin-top: 40px;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    max-width: 300px;
+    
+}
+.content a:hover{
+    color: orange;
+}
+#Skill{
+    margin-top: 800px;
+}
+#Skills{
+    position: relative;  
+    width: 100%;
+    top: 100px;
+    height: 1000px;
+}
+#Skills p{
+    color: white;
+    font-size: 24px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+#Skills h1{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+
+#html {
+    display: block;
+    width: 1000px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 200px;
+
+}
+#html::before{
+    content: '80%';
+    background-color: orange;
+    display: block;
+    text-align: center;
+    width: 800px;
+    height: 20px;
+}
+
+#Javascript {
+    display: block;
+    width: 1000px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 200px;
+
+}
+#Javascript::before{
+    content: '75%';
+    background-color: orange;
+    display: block;
+    text-align: center;
+    width: 750px;
+    height: 20px;
+}
+#ReactJS {
+    display: block;
+    width: 1000px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 200px;
+
+}
+#ReactJS::before{
+    content: '80%';
+    background-color: orange;
+    display: block;
+    text-align: center;
+    width: 800px;
+    height: 20px;
+}
+#SQL {
+    display: block;
+    width: 1000px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 200px;
+
+}
+#SQL::before{
+    content: '70%';
+    background-color: orange;
+    display: block;
+    text-align: center;
+    width: 700px;
+    height: 20px;
+}
+#Skills h2{
+    color: #FFF;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#Contact{
+    position: relative;  
+    width: 100%;
+    top: 100px;
+    height: 800px;
+}
+#Contact p{
+    color: white;
+    font-size: 24px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+#Contact h1{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
