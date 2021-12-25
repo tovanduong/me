@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="./main.css">
-    <title>I am Duong</title>
-</head>
-<body>
-    <header id="header">
-        <nav class="navbar navbar-inverse">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="./main.css">
+        <script src="./main.js"></script>
+        <title>I am Duong</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="navbar navbar-inverse">
             <div class="container-fluid contain-item">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="#">My Information</a>
+                    <a class="navbar-brand" href="#">My Information</a>
                 </div>
                 <ul class="nav navbar-nav ">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#next">Summary</a></li>
-                  <li><a href="#Certificate">Certificates</a></li>
-                  <li><a href="#Portfolio">Portfolio</a></li>
-                  <li><a href="#Skill">Skill</a></li>
-                  <li><a href="#contact">Contact me</a></li>
+                    <li><a class="nexttoSection" href="#next">Summary</a></li>
+                    <li><a class="nexttoSection1" href="#Certificate">Certificates</a></li>
+                    <li><a class="nexttoSection2" href="#Portfolio">Portfolio</a></li>
+                    <li><a class="nexttoSection3" href="#Skill">Skill</a></li>
+                    <li><a class="nexttoSection4" href="#contact">Contact me</a></li>
                 </ul>
-        </nav>
-    </header>
-    <div id="duong"><img src="./img/duong.jpg" alt="Duong" width="100%" height="100%">
-    </div>
-    <div id="main-content">
-        <div id="duong-said">
-            <p id="introduce">I'm Duong</p>
-            <p>Hi everybody. I have started a new career, late but it is the beginning. I have to try to improve myself because the world is always moving forward, I can't slow down. And I'm not afraid to face challenges
-            </p>
-            <div id="about">
-                <a href="#next">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Sumarry about me
-                </a>
-            </div>
+            </nav>
+        </header>
+        <a id="button"></a>
+        <div id="duong"><img src="./img/duong.jpg" alt="Duong" width="100%" height="100%">
         </div>
-        <hr id="next"/>
-        <div id="sumarry">
-            <h1>SUMMARY</h1>
-            <p>- I have finished Front-end Developer courses at FUNiX with high score for each project. It's HTML/CSS, Javascript, ReactJS.</p>
-            <p>- I already completed subject database system (SQL sever) and I'll continue courses Back-end to become a developer full-stack.</p>
-            <p>- Using html/css and bootstrap framework to build responsive website, publish website online. </p>
-            <p>- Build a web-app with Javascript, Jquery and ReactJS framework.</p>
-            <p>- Know how to use SQL sever to create database.</p>
+        <div id="main-content">
+            <div id="duong-said">
+                <p id="introduce">I'm Duong</p>
+                <p>Hi everybody. I have started a new career, late but it is the beginning. I have to try to improve myself because the world is always moving forward, I can't slow down. And I'm not afraid to face challenges
+                </p>
+                <div id="about">
+                    <a href="#next" class="nexttoSection">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Sumarry about me
+                    </a>
+                </div>
+            </div>
+            <hr id="next"/>
+            <div id="sumarry">
+                <h1>SUMMARY</h1>
+                <p>- I have finished Front-end Developer courses at FUNiX with high score for each project. It's HTML/CSS, Javascript, ReactJS.</p>
+                <p>- I already completed subject database system (SQL sever) and I'll continue courses Back-end to become a developer full-stack.</p>
+                <p>- Using html/css and bootstrap framework to build responsive website, publish website online. </p>
+                <p>- Build a web-app with Javascript, Jquery and ReactJS framework.</p>
+                <p>- Know how to use SQL sever to create database.</p>
             <p>- Finally, I always learn, absorb new technology and work responsibly.</p>
         </div>
         <hr id="Certificate"/>
@@ -95,13 +98,13 @@
         <div id="Skills">
             <h1>Skills</h1>
             <p>HTML/CSS</p>
-            <div id="html"><span id="css"></span></div>
+            <div class="program"  id="html"><span id="css"></span></div>
             <p>Javascript</p>
-            <div id="Javascript"><span></span></div>
+            <div class="program" id="Javascript"><span></span></div>
             <p>ReactJS</p>
-            <div id="ReactJS"><span></span></div>
+            <div class="program" id="ReactJS"><span></span></div>
             <p>SQL sever</p>
-            <div id="SQL"><span></span></div>
+            <div class="program" id="SQL"><span></span></div>
             <H2>Other skills:</H2>
             <p>- English - B1 (Intermediate)</p>
             <p>- Teamwork skill.</p>
@@ -118,3 +121,4 @@
     </div>
 </body>
 </html>
+
