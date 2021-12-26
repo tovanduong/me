@@ -4,35 +4,35 @@ $(document).ready(function () {
     var getId = $(this).attr("href");
     var getOffsetTop = $(getId).offset();
     console.log(getOffsetTop);
-    $("html, body").animate({ scrollTop: getOffsetTop.top }, 200);
+    $("html, body").animate({ scrollTop: getOffsetTop.top }, 600);
   });
   $(".nexttoSection1").on("click", function (e) {
     e.preventDefault();
     var getId = $(this).attr("href");
     var getOffsetTop = $(getId).offset();
     console.log(getOffsetTop);
-    $("html, body").animate({ scrollTop: getOffsetTop.top }, 200);
+    $("html, body").animate({ scrollTop: getOffsetTop.top }, 600);
   });
   $(".nexttoSection2").on("click", function (e) {
     e.preventDefault();
     var getId = $(this).attr("href");
     var getOffsetTop = $(getId).offset();
     console.log(getOffsetTop);
-    $("html, body").animate({ scrollTop: getOffsetTop.top }, 200);
+    $("html, body").animate({ scrollTop: getOffsetTop.top }, 600);
   });
   $(".nexttoSection3").on("click", function (e) {
     e.preventDefault();
     var getId = $(this).attr("href");
     var getOffsetTop = $(getId).offset();
     console.log(getOffsetTop);
-    $("html, body").animate({ scrollTop: getOffsetTop.top }, 200);
+    $("html, body").animate({ scrollTop: getOffsetTop.top }, 600);
   });
   $(".nexttoSection4").on("click", function (e) {
     e.preventDefault();
     var getId = $(this).attr("href");
     var getOffsetTop = $(getId).offset();
     console.log(getOffsetTop);
-    $("html, body").animate({ scrollTop: getOffsetTop.top }, 200);
+    $("html, body").animate({ scrollTop: getOffsetTop.top }, 600);
   });
   
   var check = false;
